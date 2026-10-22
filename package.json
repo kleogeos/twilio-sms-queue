@@ -1,0 +1,11 @@
+{
+  "name": "twilio-sms-queue",
+  "version": "1.0.0",
+  "description": "Rate-limited, retrying message queue for bulk Twilio SMS sends that keeps going through per-recipient failures instead of halting the whole campaign",
+  "main": "src/queue.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
